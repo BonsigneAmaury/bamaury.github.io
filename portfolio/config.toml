@@ -1,0 +1,28 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Portfolio'
+theme = 'iutlens'
+
+[params]
+    author = "Moi"
+    authorImage = "/image/mon_avatar.jpg"
+[[menu.main]]
+    name = "projet"
+    url = "/projet/premier-projet-de-2022"
+[[menu.main]]
+    name = "Blog"
+    url = "/blog"
+[[menu.main]]
+    name = "À propos"
+    url = "/a-propos-de"
+[[menu.social]]
+    name = "GitHub"
+    url = "https://github.com/VotreCompteGithub"
+    pre = "<i class='fab fa-github'></i>"
+[[menu.social]]
+    name = "Twitter"
+    url = "https://twitter.com/VotreCompteTwitter"
+    pre = "<i class='fab fa-twitter'></i>"
+[[menu.footer]]
+    name = "À propos"
+    url = "/a-propos-de"
